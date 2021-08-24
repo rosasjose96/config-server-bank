@@ -49,5 +49,5 @@ jobs:
       with:
         app-name: 'config-server-bank'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_d863102a8f2a4d4fa8a03274209fdabc }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_fbe3a5b2ca924c5e8eefbc68bc078bc3 }}
         package: '*.jar'
